@@ -4,7 +4,7 @@ public class Locale_RU : Locale_Base
 {
     public Locale_RU()
     {
-        translator = "WRITE YOUR USERNAME HERE PLEASE"; // The name of the person who translated this file
+        translator = "d1str1be, GoogleAPI и Strelmi the Wolf"; // The name of the person who translated this file
 
         language = GameLanguages.RU; // ISO code for language
 
@@ -39,30 +39,30 @@ public class Locale_RU : Locale_Base
 
             // UNITS TYPES
             { "Infantry", "Пехота" },
-            { "Tank", "Бак" },
+            { "Tank", "Танки" },
             { "Artillery", "Артиллерия" },
-            { "AA", "Ты эээ" },
+            { "AA", "Противовоздушные" },
             { "Plane", "Самолет" },
             { "Boat", "Корабль" },
             // UNITS TYPES
 
             // UNITS FILTER TYPES
-            { "FilterInfantry", "Пехотный фильтр" },
-            { "FilterTank", "Баковый фильтр" },
-            { "FilterArtillery", "Артиллерийский фильтр" },
-            { "FilterAntitank", "Противобаковый фильтр" },
-            { "FilterAA", "Анти Воздушный фильтр" },
-            { "FilterFighter", "Фильтр истребителя" },
-            { "FilterCAS", "Легкий бомбардировочный фильтр" },
-            { "FilterBomber", "Фильтр тяжелого бомбардировщика" },
-            { "FilterBoat", "Судовой фильтр" },
-            { "FilterBuilding", "Строительный фильтр" },
+            { "FilterInfantry", "Фильтр пехоты" },
+            { "FilterTank", "Фильтр танков" },
+            { "FilterArtillery", "Фильтр Артиллерии" },
+            { "FilterAntitank", "Фильтр Противотанковых пушек" },
+            { "FilterAA", "Фильтр Противовоздушных пушек" },
+            { "FilterFighter", "Фильтр истребители" },
+            { "FilterCAS", "Фильтр легких бомбардировщиков" },
+            { "FilterBomber", "Фильтр тяжелых бомбардировщиков" },
+            { "FilterBoat", "Фильтр лодок" },
+            { "FilterBuilding", "Фильтр зданий" },
             // UNITS FILTER TYPES
 
             // COUNTRIES
             { "Nazi Germany", "Германия" },
             { "Soviet Union", "Советский Союз" },
-            { "USA", "олень" },
+            { "USA", "США" },
             { "Croatia", "Хорватия" },
             { "France", "Франция" },
             { "Poland", "Польша" },
@@ -141,7 +141,7 @@ public class Locale_RU : Locale_Base
             { "Pacific 1942.sav", "Тихий океан, 1942 г." },
             { "Poland 1939.sav", "Польша 1939 г." },
             { "Poland 1945.sav", "Польша 1945 г." },
-            { "Spanish Civil War.sav", "гражданская война в Испании" },
+            { "Spanish Civil War.sav", "Гражданская война в Испании" },
             { "Stalingrad 1942.sav", "Сталинград 1942 г." },
             { "Stalingrad 1943.sav", "Сталинград 1943 г." },
             { "Winter War 1939.sav", "Зимняя война 1939 года" },
@@ -156,7 +156,7 @@ public class Locale_RU : Locale_Base
             { "Operation Crusader.sav", "Операция Крестоносец" },
             { "Operation Sonnenblume.sav", "Операция Подсолнух" },
             { "Battle of Tripoli.sav", "Битва при Триполи" },
-            { "El Alamein 2.sav", "Л. Аль-Амин А" },
+            { "El Alamein 2.sav", "Вторая Битва при Ель Аламейн" },
             { "Rommel's offensive.sav", "Наступление Роммеля" },
             { "Battle of Kasserine Pass.sav", "Битва при Кассеринском перевале" },
             { "Operation Husky.sav", "Операция Хаски" },
@@ -240,7 +240,7 @@ public class Locale_RU : Locale_Base
             { "txt-musics volume", "Музыка" },
             { "txt-date", "Дата" },
             { "txt-username", "Имя пользователя" },
-            { "txt-nickname", "Псевдоним" },
+            { "txt-nickname", "Никнейм" },
             { "btn-start", "Начинать" },
             { "btn-resume", "Резюме" },
             { "btn-copy", "Копировать" },
@@ -253,7 +253,7 @@ public class Locale_RU : Locale_Base
             { "btn-remove", "Удалять" },
             { "btn-quit main menu", "Выйти в главное меню" },
             { "btn-quit game", "Выйти из игры" },
-            { "tggl-ffa", "Бесплатно для всех" },
+            { "tggl-ffa", "Все против всех" },
             // MISC.
 
             // EDITING MODS
@@ -271,8 +271,8 @@ public class Locale_RU : Locale_Base
             // UNITS ICONS TOOLTIPS
             { "tooltip-infantry", "Пехота" },
             { "tooltip-artillery", "Артиллерия" },
-            { "tooltip-anti tank", "Анти танк" },
-            { "tooltip-anti air", "Ты эээ" },
+            { "tooltip-anti tank", "Противотанковые пушки" },
+            { "tooltip-anti air", "Противовоздушные пушки" },
             { "tooltip-armoured", "Танки и броневики" },
             { "tooltip-tanks", "Танки" },
             { "tooltip-spgs", "Самоходные орудия" },
@@ -343,12 +343,12 @@ public class Locale_RU : Locale_Base
 
             // ERRORS
             { "error-steam not connected", "Steam должен быть запущен и подключен к Интернету." },
-            { "error-private steam profile", "Чтобы разблокировать достижения игрового времени, вам нужно сделать: Профиль Steam -> Настройки конфиденциальности -> Сведения об игре -> Сделать общедоступным и снять флажок «Сохранить конфиденциальность игрового времени»." },
+            { "error-private steam profile", "Чтобы разблокировать авчики за игровое время, вам нужно сделать: Зайти в Профиль Steam -> Приватность -> Доступ к игровой информации -> Сделать открытым и снять флажок «Скрывать общее время в игре, даже если видны другие данные об играх»."},
             // ERRORS
 
             // LANDING PAGE MENU
             { "txt-demo", "ДЕМО ВЕРСИЯ" },
-            { "txt-translator", "Переводчик:" },
+            { "txt-translator", "Переводчики:" },
             { "txt-unknown translator", "Переводчик: Неизвестен" },
             // Menu Section buttons
             { "btn-continue", "Продолжать" },
@@ -362,7 +362,7 @@ public class Locale_RU : Locale_Base
             // Play Section buttons
             { "btn-multiplayer", "Мультиплеер" },
             { "btn-new campaign", "Новая кампания" },
-            { "btn-standalone scenarios", "Автономные сценарии" },
+            { "btn-standalone scenarios", "Одиночные сценарии" },
             { "btn-load save", "Загрузить Сохранить" },
             // Editors Section buttons
             { "btn-map editor", "Редактор карт" },
@@ -589,7 +589,7 @@ public class Locale_RU : Locale_Base
             { "txt-lock file", "Блокировать файл" },
             { "btn-random scenario generator", "Генератор случайных сценариев" },
             { "drpdwn-human", "Человек" },
-            { "drpdwn-IA", "Я" },
+            { "drpdwn-IA", "ИИ" },
             { "tooltip-ffa", "Никаких альянсов, каждый игрок сам за себя." },
             { "tooltip-lock file", "Сохранения невозможно открыть в редакторе карт и все настройки заблокированы." },
             { "inpt-look for scenario", "Ищите сценарий..." },
@@ -605,7 +605,7 @@ public class Locale_RU : Locale_Base
             { "txt-day", "День" },
             { "txt-days per turn", "Дней за ход" },
             { "txt-biome", "Биом" },
-            { "txt-random++", "случайный++" },
+            { "txt-random++", "Случайный" },
             { "sldr-water amount", "Количество воды" },
             { "sldr-thick forest", "Количество густого леса" },
             { "sldr-thin forest", "Количество тонкого леса" },
@@ -636,7 +636,7 @@ public class Locale_RU : Locale_Base
 
             // MODS MANAGER MENU
             { "txt-mods manager", "Менеджер модов" },
-            { "btn-modding tutorial", "Учебное пособие по моддингу" },
+            { "btn-modding tutorial", "Туториал по моддингу" },
             { "btn-apply changes", "Применить изменения" },
             { "inpt-give mod name", "Дайте моду имя..." },
             { "confirm-mod deletion", "Вы уверены, что хотите удалить этот мод?" },
@@ -672,7 +672,7 @@ public class Locale_RU : Locale_Base
             { "btn-upload mod to steam", "Загрузить мод в Steam" },
             { "btn-update mod", "Обновить мод в Steam" },
             { "info-successful steam mod upload", "Ваш мод успешно загружен в Мастерскую!" },
-            { "error-thumbnail too big", "Размер миниатюры вашего мода превышает 1 МБ. Steam принимает для миниатюр только файлы размером менее 1 МБ." },
+            { "error-thumbnail too big", "Размер обложки вашего мода превышает 1 МБ. Steam принимает для обложок только файлы размером менее 1 МБ." },
             { "error-cannot delete steam mod", "Произошла ошибка при удалении вашего мода из Steam. Пожалуйста, повторите попытку позже." },
             { "error-cannot create steam mod", "При создании мода в Steam произошла ошибка. Пожалуйста, повторите попытку позже." },
             { "error-cannot submit steam mod", "При отправке мода в Steam произошла ошибка. Пожалуйста, повторите попытку позже." },
@@ -691,7 +691,7 @@ public class Locale_RU : Locale_Base
             { "txt-camera", "Камера" },
             { "txt-overlay", "Наложение" },
             { "txt-misc", "Разнообразный" },
-            { "txt-AI difficulty", "сложность ИИ" },
+            { "txt-AI difficulty", "Cложность ИИ" },
             { "txt-easy", "Легкий" },
             { "txt-normal", "Нормальный" },
             { "txt-hard", "Жесткий" },
@@ -1105,7 +1105,7 @@ public class Locale_RU : Locale_Base
             // IN GAME MENU
 
             // SUMMARY MENU
-            { "txt-summary title", "Резюме последнего хода" },
+            { "txt-summary title", "Сводка последнего хода" },
             { "txt-summary country", "Страна" },
             { "txt-summary kills", "Убийства" },
             { "txt-summary losses", "Потери" },
@@ -1117,7 +1117,7 @@ public class Locale_RU : Locale_Base
 
             // UI TOP
             { "btn-objectives", "Цели" },
-            { "btn-map", "карта" },
+            { "btn-map", "Карта" },
             { "btn-research", "Исследовать" },
             { "btn-diplomacy", "Дипломатия" },
             { "btn-hide all units", "Скрыть все юниты" },
@@ -1634,7 +1634,7 @@ public class Locale_RU : Locale_Base
             // TOOLTIPS
             // GENERAL UI
             // RIGHT CLICK PANEL
-            { "btn-hold vp", "Удерживайте ВП - ВКЛ/ВЫКЛ" },
+            { "btn-hold vp", "Удерживайте ПО - ВКЛ/ВЫКЛ" },
             { "btn-add unit level", "Уровень +1" },
             { "btn-remove unit level", "1-й уровень" },
             // TOOLTIPS
@@ -1726,7 +1726,7 @@ public class Locale_RU : Locale_Base
             { "tggl-historical focus only", "Только исторический фокус включен" },
             { "tggl-force apply to humans", "Сила применяется к людям" },
             { "tggl-if original owner only", "Только если первоначальный владелец" },
-            { "drpdwn-no vps added", "Нет вице-президентов" },
+            { "drpdwn-no vps added", "Нет победных очков" },
             { "drpdwn-no target player", "Нет целевого игрока" },
             { "drpdwn-no target country", "Нет страны" },
             { "drpdwn-no target unit", "Нет единицы" },
